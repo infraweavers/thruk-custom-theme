@@ -22,4 +22,10 @@ jobs:
          cd ${{ github.workspace }}/src;
          make
          ls -laR themes/*/dest/
-       
+     
+     - id: upload-build
+       uses: actions/upload-artifact@v3
+       with:
+         name: "Codeweavers"
+         path: ${{ github.workspace }}/src/themes/Codeweavers/dest/
+         if-no-files-found: error
