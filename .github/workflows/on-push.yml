@@ -1,0 +1,25 @@
+name: Test, Build, Package and Optionally Release
+
+on:
+  push:
+    branches:
+      - "*"
+    tags:
+      - "*"
+
+jobs:
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+     - id: checkout
+       uses: actions/checkout@v3
+       with:
+         path: ${{ github.workspace }}/src
+      
+     - id: build
+       run: |
+         cd ${{ github.workspace }}/src;
+         make
+         ls -laR themes/*/dest/
+       
