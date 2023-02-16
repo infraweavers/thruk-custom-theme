@@ -5,6 +5,16 @@
  * all available colors and their defaults are listed here:
  * https://github.com/sni/Thruk/blob/master/themes/base.css
  */
+ 
+html {
+  font-size: 16px;
+  @screen md {
+    font-size: 17px;
+  }
+  @screen lg {
+    font-size: 26px;
+  }
+}
 
 :root {
   --navbar-item-hover-fg:     #eee;
