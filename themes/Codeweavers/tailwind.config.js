@@ -41,7 +41,7 @@ module.exports = {
         'lime': colors.lime,
       },
       boxShadow: {
-        card:  '0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24)',
+        card:  '0 1px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24)',
         float: '5px 5px 10px 0px rgba(0,0,0,0.5);',
       }
     }
