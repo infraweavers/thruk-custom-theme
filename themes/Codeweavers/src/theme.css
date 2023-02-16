@@ -5,6 +5,15 @@
  * all available colors and their defaults are listed here:
  * https://github.com/sni/Thruk/blob/master/themes/base.css
  */
+ 
+BODY{
+    color:var(--text-body);
+    font-size:12px;
+    line-height:18px;
+    letter-spacing:0;
+    font-family:Arial,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
+}
+
 :root {
   --navbar-item-hover-fg:     #eee;
   --navbar-item-hover-bg:     #0074a8;
@@ -16,6 +25,18 @@ DIV.main-header-button {
   --button-hover-fg:          #eee;
   --button-hover-bg:          #116688;
 }
+
+.navsectionsubtitle,.sublink{
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.sublink{
+    padding:.25rem .25rem .25rem 3rem
+}
+
 
 /*******************************************************************************
 * login page
@@ -29,23 +50,4 @@ BODY.loginpage {
       --text-body: #fff;
     }
   }
-}
-
-BODY{
-    color:var(--text-body);
-    font-size:12px;
-    line-height:18px;
-    letter-spacing:0;
-    font-family:Arial,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
-}
-
-.navsectionsubtitle,.sublink{
-    display:flex;
-    align-items:center;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap
-}
-.sublink{
-    padding:.25rem .25rem .25rem 3rem
 }
