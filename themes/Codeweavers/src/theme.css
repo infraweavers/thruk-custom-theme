@@ -30,3 +30,22 @@ BODY.loginpage {
     }
   }
 }
+
+BODY{
+    color:var(--text-body);
+    font-size:12px;
+    line-height:18px;
+    letter-spacing:0;
+    font-family:Arial,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji
+}
+
+.navsectionsubtitle,.sublink{
+    display:flex;
+    align-items:center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap
+}
+.sublink{
+    padding:.25rem .25rem .25rem 3rem
+}
