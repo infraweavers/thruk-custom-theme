@@ -17,7 +17,7 @@ module.exports = {
       backgroundColor: ['odd'],
       backgroundColor: ['even'],
       fontSize: {
-        default: ["13px", "18px"],
+        default: ["12px", "18px"],
         header: ["15px", "22px"],
       },
       colors: {
