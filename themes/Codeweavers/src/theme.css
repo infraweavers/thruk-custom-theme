@@ -8,7 +8,7 @@
  
 body {
   font-size: 12px;
-  @screen md {
+  @screen sm {
     font-size: 45px;
   }
 }
