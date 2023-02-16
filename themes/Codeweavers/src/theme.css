@@ -19,7 +19,7 @@ DIV.main-header-button {
 }
 
 .sublink {
-  @apply flex items-center py-1 pr-1 pl-8 overflow-hidden text-ellipsis whitespace-nowrap;
+  @apply flex items-center py-1 pr-1 pl-12 overflow-hidden text-ellipsis whitespace-nowrap;
 }
 
 /*******************************************************************************
