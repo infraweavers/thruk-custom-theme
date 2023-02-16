@@ -18,6 +18,10 @@ DIV.main-header-button {
   --button-hover-bg:          #116688;
 }
 
+.sublink {
+  @apply flex items-center py-1 pr-1 pl-8 overflow-hidden text-ellipsis whitespace-nowrap;
+}
+
 /*******************************************************************************
 * login page
 */
