@@ -7,9 +7,12 @@
  */
  
 body {
-  font-size: 12px;
+  font-size: 2px;
   @screen sm {
     font-size: 45px;
+  }
+  @screen md {
+	font-size: 12px;  
   }
 }
 
