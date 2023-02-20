@@ -26,10 +26,19 @@ div.status.col_host_name, div.status.col_description, div.status.col_state {
   }
 }
 
+/* Reduce padding around tables on mobile */
 main.p-5 {
  padding: 0.25rem !important;
  @screen sm {
   padding: 1.25rem !important;
+ }
+}
+
+/* hide excel export etc on mobile */
+main>div.flexrow.my-2.gap-y-1>div.flex.basis-1\/3.self-end.gap-1 {
+ display: none !important;
+ @screen sm {
+  display: flex;
  }
 }
 
