@@ -18,6 +18,14 @@ body, H4, [type='text'], [type='email'], [type='url'], [type='password'], [type=
   }
 }
 
+div.status.col_host_name, div.status.col_description, div.status.col_state {
+  padding-top: 4px;
+  padding-bottom: 4px;
+  @screen sm {
+   padding: 0;
+  }
+}
+
 :root {
   --navbar-item-hover-fg:     #eee;
   --navbar-item-hover-bg:     #0074a8;
