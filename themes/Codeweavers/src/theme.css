@@ -14,7 +14,7 @@ body, H4, [type='text'], [type='email'], [type='url'], [type='password'], [type=
   /* Applies to everything else (i.e. bigger than small) */
   @screen sm {
     font-size: 12px;
-    font-size: 18px;
+    line-height: 18px;
   }
 }
 
