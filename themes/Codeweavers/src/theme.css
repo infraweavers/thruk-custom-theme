@@ -34,8 +34,8 @@ main.p-5 {
  }
 }
 
-/* hide excel export etc on mobile */
-main>div.flexrow.my-2.gap-y-1>div.flex.basis-1\/3.self-end.gap-1 {
+/* hide excel export and "i" button etc on mobile  */
+main>div.flexrow.my-2.gap-y-1>div.flex.basis-1\/3.self-end.gap-1, main>div.flexrow.my-2.gap-y-1>div.basis-1\/3.self-end.justify-end.relative {
  display: none !important;
  @screen sm {
   display: flex;
