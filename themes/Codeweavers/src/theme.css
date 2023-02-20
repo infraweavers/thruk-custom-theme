@@ -26,6 +26,13 @@ div.status.col_host_name, div.status.col_description, div.status.col_state {
   }
 }
 
+main.p-5 {
+ padding: 0.25rem !important;
+ @screen sm {
+  padding: 1.25rem !important;
+ }
+}
+
 :root {
   --navbar-item-hover-fg:     #eee;
   --navbar-item-hover-bg:     #0074a8;
