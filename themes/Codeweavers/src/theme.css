@@ -8,6 +8,7 @@
  
 body, H4, [type='text'], [type='email'], [type='url'], [type='password'], [type='number'], [type='date'], [type='datetime-local'], [type='month'], [type='search'], [type='tel'], [type='time'], [type='week'], [multiple], textarea, select {
   font-size: 20px;
+  line-height: 26px;
   @screen sm {
     font-size: 12px;
   }
